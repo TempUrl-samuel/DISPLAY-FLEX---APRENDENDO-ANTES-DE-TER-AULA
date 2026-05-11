@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    background-color: antiquewhite;
+    height: 100%;
+    padding: 4%;
+}
+
+.Bola-do-Luis {
+    background-image: url(LuisSmiti.png);
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    margin-left: 4%;
+    margin-top: 4%;
+    margin-bottom: 1%;
+}
+
+/*Não está centralizado bem*/
+#header-title>a {
+    text-decoration: none;
+    color: black;
+    margin-left: 4.55%;
+}
+
+/*Não consigo tirar as bolinhas e eficar centralizado*/
+header ul>li>a {
+    text-decoration: none;
+    color: black;
+    margin-left: 4%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    justify-content: flex-start;
+}
+
+/*Não consigo fazer ficar bonitinho*/
+.newsletter>form {
+    background-color: aqua;
+    width: 187px;
+    height: 52px;
+}
+
+/*==============================body======================================*/
+/*Tá descentralizado e pequeno*/
+.imagem-meio>img {
+    margin-left: 20%;
+    width: 600px;
+    height: 870px;
+}
+
+.texto-direita{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+/*Arrumar para ficar da cor certa e no lugar certo*/
+#texto-etereo{
+    color: beige;
+}
+#texto-outra-cor{
+    color: chocolate;
+}
