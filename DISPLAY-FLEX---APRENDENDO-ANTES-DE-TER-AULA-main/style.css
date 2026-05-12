@@ -3,12 +3,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
-*{
+* {
     margin: 0;
     box-sizing: border-box;
 }
 
 header {
+    display: flex;
     margin: 4% 0%;
     position: fixed;
     height: 100vh;
@@ -28,9 +29,7 @@ header {
     background-position: center;
     overflow: hidden;
     background-repeat: no-repeat;
-    margin-left: 8%;
-    margin-top: 4%;
-    margin-bottom: 1%;
+    margin-left: 10%;
 }
 
 /*Não está centralizado bem*/
@@ -39,20 +38,18 @@ header {
     text-decoration: none;
     color: black;
     margin-left: 4.55%;
+    font-family: "Poppins";
 }
-
 
 header ul>li {
     list-style: none;
+    text-align: center;
+    padding-right: 5vh;
 }
 
 header ul>li>a {
     text-decoration: none;
     color: black;
-    margin-left: 4%;
-    justify-content: space-between;
-    text-align: center;
-    justify-content: flex-start;
 }
 
 .newsletter>form {
@@ -61,24 +58,42 @@ header ul>li>a {
     border: bold gray;
     width: 187px;
     height: 52px;
- 
 }
 
-.header-esquerda{
+.header-esquerda {
     display: flex;
-
 }
+
+.parte-cima {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Poppins";
+    font-weight: bold;
+}
+
+.span1{
+    position: absolute;
+    font-size: 70px;
+    color: #EDEDED;
+    font-family: "Poppins";
+    z-index: -1;
+    font-weight: bold;
+    top: 25vh;
+    right: 27vh;
+}
+
 /*==============================body======================================*/
 /*Tá descentralizado e pequeno*/
 
-.imagem-meio {   
-    padding-left: 40vh; 
+.imagem-meio {
+    padding-left: 43.5vh;
     width: 710px;
     height: 1000px;
     order: 1;
 }
 
-.imagem-esquerda-texto-direita{
+.imagem-esquerda-texto-direita {
     display: flex;
     justify-content: space-between;
 }
@@ -87,20 +102,20 @@ header ul>li>a {
 /*Nao to conseguindo alterar a posicao do texto para ficar na*/
 .texto-direita {
     display: flex;
-    justify-content: center ;
+    justify-content: center;
     flex-direction: column;
     width: 35%;
     order: 2;
 }
 
-.texto-direita>h2{
+.texto-direita>h2 {
     font-family: "Poppins";
     font-weight: normal;
     color: #999999;
     font-size: 21px;
 }
 
-.texto-direita>h1{
+.texto-direita>h1 {
     font-family: "Poppins";
     font-size: 40px;
 }
@@ -114,7 +129,7 @@ header ul>li>a {
     font-size: 40px;
 }
 
-.signature{
+.signature {
     font-family: "Herr Von Muellerhoff", cursive;
     font-size: 40px;
     font-weight: 400;
