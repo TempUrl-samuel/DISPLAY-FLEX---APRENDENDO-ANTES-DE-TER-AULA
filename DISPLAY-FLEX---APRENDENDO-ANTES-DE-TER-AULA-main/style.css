@@ -6,6 +6,7 @@
 * {
     margin: 0;
     box-sizing: border-box;
+
 }
 
 header {
@@ -30,6 +31,7 @@ header {
     overflow: hidden;
     background-repeat: no-repeat;
     margin-left: 10%;
+    background-color: #0b0707;
 }
 
 
@@ -53,6 +55,7 @@ header ul>li>a {
 }
 
 .newsletter>form {
+    display: flex;
     justify-content: center;
     background-color: #FFFFFF;
     border: bold gray;
@@ -72,7 +75,7 @@ header ul>li>a {
     font-weight: bold;
 }
 
-.span1{
+.span1 {
     position: absolute;
     font-size: 70px;
     color: #EDEDED;
@@ -86,9 +89,8 @@ header ul>li>a {
 /*==============================body======================================*/
 
 .imagem-meio {
-    padding-left: 43.5vh;
-    width: 70%;
-    height: 100%;
+    padding-left: 18%;
+    padding-top: -20%;
     order: 1;
     transform: scale(0.8);
 }
@@ -137,14 +139,26 @@ header ul>li>a {
 
 /*-------------------------porfolio---------------------------------------*/
 
-.potifolio{
-    display: flex;
-    flex-direction: row;
-    top: 100%;
+.potifolio {
     position: absolute;
+    display: flex;
+    align-items: end;
+    margin-left: 20%;
+    top: 150%;
+}
+.port-titulo{
+     position: absolute;
+    display: flex;
+    align-items: end;
+    margin-left: 20%;
+    top: 145%;
 }
 
-.img-1{
+.port-titulo>h3{
+    font-family: "Poppins";
+}
+
+.img-1 {
     background-image: url(image_1.jpg);
     background-size: cover;
     background-position: center;
@@ -154,7 +168,7 @@ header ul>li>a {
     display: flex;
 }
 
-.img-2{
+.img-2 {
     background-image: url(image_2.jpg);
     background-size: cover;
     background-position: center;
@@ -162,10 +176,10 @@ header ul>li>a {
     width: 150px;
     height: 150px;
     display: flex;
-   
+
 }
 
-.img-3{
+.img-3 {
     background-image: url(image_3.jpg);
     background-size: cover;
     background-position: center;
@@ -173,10 +187,10 @@ header ul>li>a {
     width: 150px;
     height: 150px;
     display: flex;
-   
+
 }
 
-.img-4{
+.img-4 {
     background-image: url(image_4.jpg);
     background-size: cover;
     background-position: center;
@@ -184,10 +198,10 @@ header ul>li>a {
     width: 150px;
     height: 150px;
     display: flex;
-   
+
 }
 
-.img-5{
+.img-5 {
     background-image: url(image_5.jpg);
     background-size: cover;
     background-position: center;
@@ -195,8 +209,37 @@ header ul>li>a {
     width: 150px;
     height: 150px;
     display: flex;
-   
+
 }
 
 /*--------------------------------footer----------------------------------*/
-
+/*<footer>
+        <div>
+            <h1>RECENT PHOTOS</h1>
+            <br>
+            <div class="img-1"></div>
+            <div class="img-2"></div>
+            <div class="img-3"></div>
+            <div class="img-4"></div>
+            <div class="img-5"></div>
+            <div class="img-6"></div>
+        </div>
+        <div>
+            <h1>ARCHIVES</h1>
+            <br>
+            <ul>
+                <li>November 2018</li>
+                <li>October 2018</li>
+                <li>September 2018</li>
+                <li>August 2018</li>
+                <li>July 2018</li>
+            </ul>
+        </div>
+        <div>
+            <h1>HAVE A QUESTION?</h1>
+            <br>
+            <h2>203 Fake St. Moutain View, San Francisco, California, USA</h2>
+            <h2>+2 392 3929 210</h2>
+            <h2>info@yourdomain.com</h2>
+        </div>
+    </footer>*/
