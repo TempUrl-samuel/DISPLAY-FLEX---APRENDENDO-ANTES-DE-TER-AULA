@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    display: flex;
+    margin: 4% 0%;
+    position: fixed;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 22%;
+    text-align: center;
+}
+
+.Bola-do-Luis {
+    background-image: url(LuisSmiti.png);
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+    background-color: #0b0707;
+}
+
+
+#header-title>a {
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+    margin-left: 4.55%;
+    font-family: "Poppins";
+}
+
+header ul>li {
+    list-style: none;
+    text-align: center;
+    padding-right: 5vh;
+}
+
+header ul>li>a {
+    text-decoration: none;
+    color: black;
+}
+
+.newsletter>form {
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+    border: bold gray;
+    width: 187px;
+    height: 52px;
+}
+
+.header-esquerda {
+    display: flex;
+}
+
+.parte-cima {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Poppins";
+    font-weight: bold;
+}
+
+.span1 {
+    position: absolute;
+    font-size: 70px;
+    color: #EDEDED;
+    font-family: "Poppins";
+    z-index: -1;
+    font-weight: bold;
+    top: 25vh;
+    right: 27vh;
+}
+
+/*==============================body======================================*/
+
+.imagem-meio {
+    padding-left: 18%;
+    order: 1;
+    transform: scale(0.8);
+}
+
+.imagem-esquerda-texto-direita {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*-----------------------------Texto da direita---------------------------*/
+/*Nao to conseguindo alterar a posicao do texto para ficar na*/
+.texto-direita {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 35%;
+    order: 2;
+}
+
+.texto-direita>h2 {
+    font-family: "Poppins";
+    font-weight: normal;
+    color: #999999;
+    font-size: 21px;
+}
+
+.texto-direita>h1 {
+    font-family: "Poppins";
+    font-size: 40px;
+}
+
+#texto-etereo {
+    color: beige;
+}
+
+#texto-outra-cor {
+    color: #CCB78F;
+    font-size: 40px;
+}
+
+.signature {
+    font-family: "Herr Von Muellerhoff", cursive;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+/*-------------------------porfolio---------------------------------------*/
+
+.potifolio {
+    position: absolute;
+    display: flex;
+    align-items: end;
+    margin-left: 20%;
+    top: 150%;
+}
+.port-titulo{
+     position: absolute;
+    display: flex;
+    align-items: end;
+    margin-left: 20%;
+    top: 145%;
+}
+
+.port-titulo>h3{
+    font-family: "Poppins";
+}
+
+.img-1 {
+    background-image: url(image_1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    display: flex;
+}
+
+.img-2 {
+    background-image: url(image_2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    display: flex;
+
+}
+
+.img-3 {
+    background-image: url(image_3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    display: flex;
+
+}
+
+.img-4 {
+    background-image: url(image_4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    display: flex;
+
+}
+
+.img-5 {
+    background-image: url(image_5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    display: flex;
+
+}
+.img-6 {
+    background-image: url(image_6.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    display: flex;
+
+}
+
+/*--------------------------------footer----------------------------------*/
+footer{
+    display: flex;
+    align-items: end;
+    margin-top: 15%;
+    background-color: #242423;
+    padding-left: 22%;
+}
+
+.imagens{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
