@@ -11,7 +11,6 @@
 
 header {
     padding-top: 2%;
-    padding-right: 4%;
     display: flex;
     position: fixed;
     height: 100vh;
@@ -22,6 +21,7 @@ header {
     text-align: center;
     height: 100%;
     z-index: 10;
+    background-color: #FFFFFF;
 }
 
 .Bola-do-Luis {
@@ -235,64 +235,110 @@ header ul>li>a {
 
 }
 
-.img-6 {
-    background-image: url(image_6.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 150px;
-    height: 150px;
-    display: flex;
-
-}
-
 /*--------------------------------footer----------------------------------*/
 footer {
     display: flex;
-    align-items: end;
-    margin-top: 15%;
+    flex-direction: column;
     background-color: #242423;
     padding-left: 22%;
+    height: 75vh;
+    justify-content: center;
+    padding-bottom: 8%;
+}
+
+.footer-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.foot-titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: "Poppins";
+    font-size: 10px;
+    padding-bottom: 5%;
+    color: #FFFFFF;
+    font-weight: lighter;
+    
 }
 
 .footer-resto {
     display: flex;
     flex-direction: row;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 300px;
     flex-wrap: wrap;
+    
 }
 
 .imginha-1 {
     background-image: url(image_1.jpg);
     width: 100px;
     height: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .imginha-2 {
     background-image: url(image_2.jpg);
     width: 100px;
     height: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .imginha-3 {
     background-image: url(image_3.jpg);
     width: 100px;
     height: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .imginha-4 {
     background-image: url(image_4_.jpg);
     width: 100px;
     height: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .imginha-5 {
     background-image: url(image_5.jpg);
     width: 100px;
     height: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .imginha-6 {
     background-image: url(image_6.jpg);
     width: 100px;
     height: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.datas>h3>a{
+    color: #999999;
+    text-decoration: none;
+}
+
+.datas span{
+    color: #c0c0c0;
+    margin-left: 40%;
+}
+
+.location>h2{
+    color: #999999;
 }

@@ -6,12 +6,12 @@
 * {
     margin: 0;
     box-sizing: border-box;
+
 }
 
 header {
+    padding-top: 2%;
     display: flex;
-    margin: 4% 0%;
-    
     position: fixed;
     height: 100vh;
     flex-direction: column;
@@ -19,6 +19,9 @@ header {
     align-items: center;
     width: 22%;
     text-align: center;
+    height: 100%;
+    z-index: 10;
+    background-color: #FFFFFF;
 }
 
 .Bola-do-Luis {
@@ -31,6 +34,7 @@ header {
     overflow: hidden;
     background-repeat: no-repeat;
     margin-left: 10%;
+    background-color: #0b0707;
 }
 
 
@@ -53,12 +57,18 @@ header ul>li>a {
     color: black;
 }
 
+.newsletter>h2 {
+    font-family: "poppins";
+}
+
 .newsletter>form {
+    display: flex;
     justify-content: center;
     background-color: #FFFFFF;
-    border: bold gray;
+    border: bold rgba(201, 201, 201, 0.058);
     width: 187px;
-    height: 52px;
+    height: 50px;
+    padding-bottom: 5%;
 }
 
 .header-esquerda {
@@ -73,23 +83,12 @@ header ul>li>a {
     font-weight: bold;
 }
 
-.span1{
-    position: absolute;
-    font-size: 70px;
-    color: #EDEDED;
-    font-family: "Poppins";
-    z-index: -1;
-    font-weight: bold;
-    top: 25vh;
-    right: 27vh;
-}
+
 
 /*==============================body======================================*/
 
 .imagem-meio {
-    padding-left: 43.5vh;
-    width: 710px;
-    height: 1000px;
+    padding-left: 18%;
     order: 1;
 }
 
@@ -104,8 +103,9 @@ header ul>li>a {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 35%;
     order: 2;
+    margin-left: 2.5%;
+    padding-bottom: 13%;
 }
 
 .texto-direita>h2 {
@@ -130,90 +130,215 @@ header ul>li>a {
 }
 
 .signature {
-    font-family: "Herr Von Muellerhoff", cursive;
+    font-family: "Herr Von Muellerhoff";
     font-size: 40px;
     font-weight: 400;
 }
 
-/*-------------------------porfolio---------------------------------------*/
-/**/
-.potifolio{
-    display: flex;
-    flex-direction: row;
-    top: 100%;
+.span1 {
     position: absolute;
+    font-size: 70px;
+    color: #EDEDED;
+    font-family: "Poppins";
+    z-index: -1;
+    font-weight: bold;
+    top: 25vh;
+    right: 18%;
 }
 
-.img-1{
+/*-------------------------porfolio---------------------------------------*/
+.eeeefollow {
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+.potifolio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20%;
+    top: 150%;
+    margin-bottom: 20px;
+    width: 80%;
+    transform: scale(0.9);
+}
+
+.port-titulo {
+    display: flex;
+    align-items: end;
+    margin-left: 20%;
+    margin-bottom: 2%;
+    font-size: 14px;
+    top: 145%;
+    letter-spacing: 5px;
+}
+
+.port-titulo>h3 {
+    font-family: "Poppins";
+    display: flex;
+}
+
+.potifolio>.img-1 {
     background-image: url(image_1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     display: flex;
 }
 
-.img-2{
+.potifolio>.img-2 {
     background-image: url(image_2.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     display: flex;
-   
+
 }
 
-.img-3{
+.potifolio>.img-3 {
     background-image: url(image_3.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     display: flex;
-   
+
 }
 
-.img-4{
+.potifolio>.img-4 {
     background-image: url(image_4.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     display: flex;
-   
+
 }
 
-.img-5{
+.potifolio>.img-5 {
     background-image: url(image_5.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     display: flex;
-   
-}
 
-.img-6{
-    background-image: url(image_5.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 150px;
-    height: 150px;
-    display: flex;
-   
 }
-
 
 /*--------------------------------footer----------------------------------*/
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #242423;
+    padding-left: 22%;
+    height: 75vh;
+    justify-content: center;
+    padding-bottom: 8%;
+}
 
-footer>.port-footer{
+.footer-cont{
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.foot-titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: "Poppins";
+    font-size: 10px;
+    padding-bottom: 5%;
+    color: #FFFFFF;
+    font-weight: lighter;
+    
+}
+
+.footer-resto {
+    display: flex;
+    flex-direction: row;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 300px;
     flex-wrap: wrap;
+    
+}
+
+.imginha-1 {
+    background-image: url(image_1.jpg);
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imginha-2 {
+    background-image: url(image_2.jpg);
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imginha-3 {
+    background-image: url(image_3.jpg);
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imginha-4 {
+    background-image: url(image_4_.jpg);
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imginha-5 {
+    background-image: url(image_5.jpg);
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imginha-6 {
+    background-image: url(image_6.jpg);
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.datas>h3>a{
+    color: #999999;
+    text-decoration: none;
+}
+
+.datas span{
+    color: #c0c0c0;
+    margin-left: 40%;
+}
+
+.location>h2{
+    color: #999999;
 }
