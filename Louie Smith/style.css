@@ -300,6 +300,7 @@ footer {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    
 }
 
 .imginha-4 {
@@ -309,6 +310,7 @@ footer {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
 }
 
 .imginha-5 {
@@ -327,18 +329,29 @@ footer {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+  
 }
 
 .datas>h3>a{
-    color: #999999;
+    color: #FFFFFF80;
     text-decoration: none;
 }
 
 .datas span{
-    color: #c0c0c0;
+    color: #FFFFFF80;
     margin-left: 40%;
 }
 
-.location>h2{
-    color: #999999;
+.telefone>h2{
+    color: #FFFFFF80;
+    font-size: 15px;
 }
+
+.made>h4{
+    color: #FFFFFF80;
+}
+
+.fone{
+    transform: scale(0.05);
+}
+
