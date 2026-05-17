@@ -249,7 +249,7 @@ footer {
 .footer-cont{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .foot-titulo{
@@ -261,7 +261,6 @@ footer {
     padding-bottom: 5%;
     color: #FFFFFF;
     font-weight: lighter;
-    
 }
 
 .footer-resto {
@@ -272,7 +271,6 @@ footer {
     background-repeat: no-repeat;
     width: 300px;
     flex-wrap: wrap;
-    
 }
 
 .imginha-1 {
@@ -304,7 +302,7 @@ footer {
 }
 
 .imginha-4 {
-    background-image: url(image_4_.jpg);
+    background-image: url(image_4.jpg);
     width: 100px;
     height: 100px;
     background-size: cover;
@@ -335,11 +333,31 @@ footer {
 .datas>h3>a{
     color: #FFFFFF80;
     text-decoration: none;
+    font-style: "Montserrat";
+    font-weight: 100;
 }
 
 .datas span{
     color: #FFFFFF80;
-    margin-left: 40%;
+    margin-left: 100%;
+}
+
+.location{
+    width: 30vh;
+}
+
+.location>h2{
+    font-family: "Montserrat";
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: light;
+}
+
+.location-te4to{
+    font-family: "Montserrat";
+    font-size: 16px;
+    color: #FFFFFF80;
+    font-weight: lighter;
 }
 
 .telefone>h2{
@@ -347,11 +365,13 @@ footer {
     font-size: 15px;
 }
 
-.made>h4{
+
+#made>h4{
     color: #FFFFFF80;
 }
 
-.fone{
-    transform: scale(0.05);
+.imagens-footer{
+    position: absolute;
+    transform: scale(0.09);
 }
 
