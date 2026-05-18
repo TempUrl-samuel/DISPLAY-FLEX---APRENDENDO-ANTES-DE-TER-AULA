@@ -98,7 +98,7 @@ header ul>li>a {
 }
 
 /*-----------------------------Texto da direita---------------------------*/
-/*Nao to conseguindo alterar a posicao do texto para ficar na*/
+
 .texto-direita {
     display: flex;
     justify-content: center;

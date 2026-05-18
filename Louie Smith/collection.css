@@ -6,7 +6,6 @@
 * {
     margin: 0;
     box-sizing: border-box;
-
 }
 
 header {
@@ -17,7 +16,7 @@ header {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 22%;
+    width: 400px;
     text-align: center;
     height: 100%;
     z-index: 10;
@@ -87,23 +86,163 @@ header ul>li>a {
 
 /*==============================body======================================*/
 
-.header-meiado{
+.header-meiado {
     background-color: #CCB78F;
     width: 100%;
     height: 213px;
+    margin-left: 400px;
+    padding-top: 3%;
 }
 
-.header-meiado>h2{
-    margin: auto;
+.header-meiado>h2 {
+    text-decoration: underline;
     font-family: "Montserrat";
-    color: red;
+    font-size: 13px;
+    margin-left: 400px;
 }
 
-.header-meiado>h1{
-    margin: auto;
-    font-family: "Poppins";
-    color: red;
+.header-meiado>span {
+    color: #00000080;
+    text-decoration: underline;
+    font-family: "Montserrat";
+    font-size: 13px;
 }
+
+.header-meiado>h1 {
+    font-family: "Poppins";
+    font-size: 40px;
+    margin-left: 400px;
+}
+
+.Poifulio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 400px;
+    justify-content: space-evenly;
+}
+
+.imagem-portifolio1 {
+    background-image: url(image_1.jpg);
+    width: 457px;
+    height: 250px;
+    margin-top: 1%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imagem-portifolio2 {
+    background-image: url(image_2.jpg);
+    width: 457px;
+    height: 250px;
+    margin-top: 1%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imagem-portifolio3 {
+    background-image: url(image_3.jpg);
+    width: 457px;
+    height: 250px;
+    margin-top: 1%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.imagem-portifolio4 {
+    background-image: url(image_4.jpg);
+    width: 457px;
+    height: 250px;
+    margin-top: 1%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imagem-portifolio5 {
+    background-image: url(image_5.jpg);
+    width: 457px;
+    height: 250px;
+    margin-top: 1%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imagem-portifolio6 {
+    background-image: url(image_6.jpg);
+    width: 457px;
+    height: 250px;
+    margin-top: 1%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imagem-portifolio7 {
+    background-image: url(image_7.jpg);
+    width: 457px;
+    height: 250px;
+    margin-top: 1%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imagem-portifolio8 {
+    background-image: url(image_8.jpg);
+    width: 457px;
+    height: 250px;
+    margin-top: 1%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imagem-portifolio9 {
+    background-image: url(image_9.jpg);
+    width: 457px;
+    height: 250px;
+    margin-top: 1%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imagem-portifolio10 {
+    background-image: url(image_10.jpg);
+    width: 457px;
+    height: 250px;
+    margin-top: 1%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imagem-portifolio11 {
+    background-image: url(image_11.jpg);
+    width: 457px;
+    height: 250px;
+    margin-top: 1%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imagem-portifolio12 {
+    background-image: url(image_12.jpg);
+    width: 457px;
+    height: 250px;
+    margin-top: 1%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 
 /*--------------------------------footer----------------------------------*/
 footer {
