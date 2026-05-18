@@ -87,152 +87,22 @@ header ul>li>a {
 
 /*==============================body======================================*/
 
-.imagem-meio {
-    padding-left: 18%;
-    order: 1;
+.header-meiado{
+    background-color: #CCB78F;
+    width: 100%;
+    height: 213px;
 }
 
-.imagem-esquerda-texto-direita {
-    display: flex;
-    justify-content: space-between;
+.header-meiado>h2{
+    margin: auto;
+    font-family: "Montserrat";
+    color: red;
 }
 
-/*-----------------------------Texto da direita---------------------------*/
-/*Nao to conseguindo alterar a posicao do texto para ficar na*/
-.texto-direita {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    order: 2;
-    margin-left: 2.5%;
-    padding-bottom: 13%;
-}
-
-.texto-direita>h2 {
+.header-meiado>h1{
+    margin: auto;
     font-family: "Poppins";
-    font-weight: normal;
-    color: #999999;
-    font-size: 21px;
-}
-
-.texto-direita>h1 {
-    font-family: "Poppins";
-    font-size: 40px;
-}
-
-#texto-etereo {
-    color: beige;
-}
-
-#texto-outra-cor {
-    color: #CCB78F;
-    font-size: 40px;
-}
-
-.signature {
-    font-family: "Herr Von Muellerhoff";
-    font-size: 40px;
-    font-weight: 400;
-}
-
-.span1 {
-    position: absolute;
-    font-size: 70px;
-    color: #EDEDED;
-    font-family: "Poppins";
-    z-index: -1;
-    font-weight: bold;
-    top: 25vh;
-    right: 18%;
-}
-
-/*-------------------------porfolio---------------------------------------*/
-.eeeefollow {
-    display: flex;
-    justify-content: center;
-    height: 50vh;
-    flex-direction: column;
-    align-items: center;
-}
-
-.potifolio {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 20%;
-    top: 150%;
-    margin-bottom: 20px;
-    width: 80%;
-    transform: scale(0.9);
-}
-
-.port-titulo {
-    display: flex;
-    align-items: end;
-    margin-left: 20%;
-    margin-bottom: 2%;
-    font-size: 14px;
-    top: 145%;
-    letter-spacing: 5px;
-}
-
-.port-titulo>h3 {
-    font-family: "Poppins";
-    display: flex;
-}
-
-.potifolio>.img-1 {
-    background-image: url(image_1.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 250px;
-    height: 250px;
-    display: flex;
-}
-
-.potifolio>.img-2 {
-    background-image: url(image_2.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 250px;
-    height: 250px;
-    display: flex;
-
-}
-
-.potifolio>.img-3 {
-    background-image: url(image_3.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 250px;
-    height: 250px;
-    display: flex;
-
-}
-
-.potifolio>.img-4 {
-    background-image: url(image_4.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 250px;
-    height: 250px;
-    display: flex;
-
-}
-
-.potifolio>.img-5 {
-    background-image: url(image_5.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 250px;
-    height: 250px;
-    display: flex;
-
+    color: red;
 }
 
 /*--------------------------------footer----------------------------------*/
@@ -246,13 +116,13 @@ footer {
     padding-bottom: 8%;
 }
 
-.footer-cont{
+.footer-cont {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
-.foot-titulo{
+.foot-titulo {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -261,7 +131,6 @@ footer {
     padding-bottom: 5%;
     color: #FFFFFF;
     font-weight: lighter;
-    
 }
 
 .footer-resto {
@@ -272,7 +141,6 @@ footer {
     background-repeat: no-repeat;
     width: 300px;
     flex-wrap: wrap;
-    
 }
 
 .imginha-1 {
@@ -300,15 +168,17 @@ footer {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
 }
 
 .imginha-4 {
-    background-image: url(image_4_.jpg);
+    background-image: url(image_4.jpg);
     width: 100px;
     height: 100px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
 }
 
 .imginha-5 {
@@ -327,18 +197,73 @@ footer {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
 }
 
-.datas>h3>a{
-    color: #999999;
+
+.location {
+    width: 30vh;
     text-decoration: none;
 }
 
-.datas span{
-    color: #c0c0c0;
-    margin-left: 40%;
+.location>h2 {
+    font-family: "Montserrat";
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: light;
 }
 
-.location>h2{
-    color: #999999;
+.location-te4to>h2 {
+    text-decoration: none;
+    font-family: "Montserrat";
+    font-size: 16px;
+    color: #FFFFFF80;
+    font-weight: 300;
+}
+
+.telefone>h2 {
+    color: #FFFFFF80;
+    font-size: 15px;
+}
+
+
+#made>h4 {
+    color: #FFFFFF80;
+    margin-left: 10%;
+    padding-top: 5%;
+}
+
+.imagens-footer {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: 10%;
+    transform: scale(0.05);
+
+}
+
+.datas span {
+    display: inline-block;
+    color: #FFFFFF;
+    padding-left: 20vh;
+}
+
+.datas {
+    display: flex;
+    flex-direction: column;
+}
+
+.datas>h3>a {
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF80;
+    text-decoration: none;
+    font-style: "Montserrat";
+    font-weight: 100;
+}
+
+.datas>hr {
+    opacity: 33%;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
