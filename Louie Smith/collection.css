@@ -124,8 +124,8 @@ header ul>li>a {
 
 .imagem-portifolio1 {
     background-image: url(image_1.jpg);
-    width: 457px;
-    height: 250px;
+    width: 100px;
+    height: 100px;
     margin-top: 1%;
     background-size: cover;
     background-position: center;
@@ -134,8 +134,8 @@ header ul>li>a {
 
 .imagem-portifolio2 {
     background-image: url(image_2.jpg);
-    width: 457px;
-    height: 250px;
+    width: 100px;
+    height: 100px;
     margin-top: 1%;
     background-size: cover;
     background-position: center;
@@ -144,8 +144,8 @@ header ul>li>a {
 
 .imagem-portifolio3 {
     background-image: url(image_3.jpg);
-    width: 457px;
-    height: 250px;
+    width: 100px;
+    height: 100px;
     margin-top: 1%;
     background-size: cover;
     background-position: center;
@@ -155,8 +155,8 @@ header ul>li>a {
 
 .imagem-portifolio4 {
     background-image: url(image_4.jpg);
-    width: 457px;
-    height: 250px;
+    width: 100px;
+    height: 100px;
     margin-top: 1%;
     background-size: cover;
     background-position: center;
@@ -165,8 +165,8 @@ header ul>li>a {
 
 .imagem-portifolio5 {
     background-image: url(image_5.jpg);
-    width: 457px;
-    height: 250px;
+    width: 100px;
+    height: 100px;
     margin-top: 1%;
     background-size: cover;
     background-position: center;
@@ -175,74 +175,13 @@ header ul>li>a {
 
 .imagem-portifolio6 {
     background-image: url(image_6.jpg);
-    width: 457px;
-    height: 250px;
+    width: 100px;
+    height: 100px;
     margin-top: 1%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-
-.imagem-portifolio7 {
-    background-image: url(image_7.jpg);
-    width: 457px;
-    height: 250px;
-    margin-top: 1%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.imagem-portifolio8 {
-    background-image: url(image_8.jpg);
-    width: 457px;
-    height: 250px;
-    margin-top: 1%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.imagem-portifolio9 {
-    background-image: url(image_9.jpg);
-    width: 457px;
-    height: 250px;
-    margin-top: 1%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.imagem-portifolio10 {
-    background-image: url(image_10.jpg);
-    width: 457px;
-    height: 250px;
-    margin-top: 1%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.imagem-portifolio11 {
-    background-image: url(image_11.jpg);
-    width: 457px;
-    height: 250px;
-    margin-top: 1%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.imagem-portifolio12 {
-    background-image: url(image_12.jpg);
-    width: 457px;
-    height: 250px;
-    margin-top: 1%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
 
 /*--------------------------------footer----------------------------------*/
 footer {
