@@ -124,9 +124,9 @@ header ul>li>a {
 
 .imagem-portifolio1 {
     background-image: url(image_1.jpg);
-    width: 457px;
+    width: 457.28px;
     height: 250px;
-    margin-top: 1%;
+    margin-top: 2%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -134,9 +134,9 @@ header ul>li>a {
 
 .imagem-portifolio2 {
     background-image: url(image_2.jpg);
-    width: 457px;
+    width: 457.28px;
     height: 250px;
-    margin-top: 1%;
+    margin-top: 2%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -144,9 +144,9 @@ header ul>li>a {
 
 .imagem-portifolio3 {
     background-image: url(image_3.jpg);
-    width: 457px;
+    width: 457.28px;
     height: 250px;
-    margin-top: 1%;
+    margin-top: 2%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -155,9 +155,9 @@ header ul>li>a {
 
 .imagem-portifolio4 {
     background-image: url(image_4.jpg);
-    width: 457px;
+    width: 457.28px;
     height: 250px;
-    margin-top: 1%;
+    margin-top: 2%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -165,9 +165,9 @@ header ul>li>a {
 
 .imagem-portifolio5 {
     background-image: url(image_5.jpg);
-    width: 457px;
+    width: 457.28px;
     height: 250px;
-    margin-top: 1%;
+    margin-top: 2%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -175,9 +175,9 @@ header ul>li>a {
 
 .imagem-portifolio6 {
     background-image: url(image_6.jpg);
-    width: 457px;
+    width: 457.28px;
     height: 250px;
-    margin-top: 1%;
+    margin-top: 2%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -185,9 +185,9 @@ header ul>li>a {
 
 .imagem-portifolio7 {
     background-image: url(image_7.jpg);
-    width: 457px;
+    width: 457.28px;
     height: 250px;
-    margin-top: 1%;
+    margin-top: 2%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -195,9 +195,9 @@ header ul>li>a {
 
 .imagem-portifolio8 {
     background-image: url(image_8.jpg);
-    width: 457px;
+    width: 457.28px;
     height: 250px;
-    margin-top: 1%;
+    margin-top: 2%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -205,9 +205,9 @@ header ul>li>a {
 
 .imagem-portifolio9 {
     background-image: url(image_9.jpg);
-    width: 457px;
+    width: 457.28px;
     height: 250px;
-    margin-top: 1%;
+    margin-top: 2%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -215,9 +215,10 @@ header ul>li>a {
 
 .imagem-portifolio10 {
     background-image: url(image_10.jpg);
-    width: 457px;
+    width: 457.28px;
     height: 250px;
-    margin-top: 1%;
+    margin-top: 2%;
+    margin-bottom: 1%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -225,9 +226,10 @@ header ul>li>a {
 
 .imagem-portifolio11 {
     background-image: url(image_11.jpg);
-    width: 457px;
+    width: 457.28px;
     height: 250px;
-    margin-top: 1%;
+    margin-top: 2%;
+    margin-bottom: 1%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -235,14 +237,14 @@ header ul>li>a {
 
 .imagem-portifolio12 {
     background-image: url(image_12.jpg);
-    width: 457px;
+    width: 457.28px;
     height: 250px;
-    margin-top: 1%;
+    margin-top: 2%;
+    margin-bottom: 3%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-
 
 /*--------------------------------footer----------------------------------*/
 footer {
@@ -283,7 +285,7 @@ footer {
 }
 
 .imginha-1 {
-    background-image: url(image_1.jpg);
+    background-image: url(portfolio1.png);
     width: 100px;
     height: 100px;
     background-size: cover;
@@ -292,7 +294,7 @@ footer {
 }
 
 .imginha-2 {
-    background-image: url(image_2.jpg);
+    background-image: url(portfolio2.png);
     width: 100px;
     height: 100px;
     background-size: cover;
@@ -301,7 +303,7 @@ footer {
 }
 
 .imginha-3 {
-    background-image: url(image_3.jpg);
+    background-image: url(portfolio3.png);
     width: 100px;
     height: 100px;
     background-size: cover;
@@ -311,7 +313,7 @@ footer {
 }
 
 .imginha-4 {
-    background-image: url(image_4.jpg);
+    background-image: url(portfolio4.png);
     width: 100px;
     height: 100px;
     background-size: cover;
@@ -321,7 +323,7 @@ footer {
 }
 
 .imginha-5 {
-    background-image: url(image_5.jpg);
+    background-image: url(portfolio5.png);
     width: 100px;
     height: 100px;
     background-size: cover;
@@ -330,7 +332,7 @@ footer {
 }
 
 .imginha-6 {
-    background-image: url(image_6.jpg);
+    background-image: url(portfolio6.png);
     width: 100px;
     height: 100px;
     background-size: cover;
