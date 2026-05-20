@@ -82,6 +82,8 @@ header ul>li>a {
     font-weight: bold;
 }
 
+
+
 /*==============================body======================================*/
 
 .header-meiado {
@@ -112,85 +114,27 @@ header ul>li>a {
     margin-left: 400px;
 }
 
+.localizacao{
+    padding: 24px;
+}
+
+.localizacao>ul>li{
+    list-style: none;
+    font-family: "Montserrat";
+    color: #999999;
+    background-color: #F8F9FA;
+}
+
+.numero-telefone{
+    background-color: #F8F9FA;
+}
+
 .Poifulio {
     display: flex;
     flex-direction: row;
-    width: 1200px;
     flex-wrap: wrap;
     padding-left: 400px;
     justify-content: space-evenly;
-    height: 100vh;
-    z-index: 99;
-}
-
-.Poifulio>h1 {
-    font-family: "Poppins";
-    color: #000000CC;
-    width: 350px;
-    height: 132px;
-}
-
-.Poifulio>h2 {
-    font-family: "Montserrat";
-    color: #999999;
-}
-
-.imagem-portifolio1 {
-    background-image: url(portfolio1.png);
-    width: 54px;
-    height: 54px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-
-.imagem-portifolio2 {
-    background-image: url(portfolio2.jpg);
-    width: 54px;
-    height: 54px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.imagem-portifolio3 {
-    background-image: url(portfolio3.jpg);
-    width: 54px;
-    height: 54px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-}
-
-.imagem-portifolio4 {
-    background-image: url(portfolio4.jpg);
-    width: 54px;
-    height: 54px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-}
-
-.imagem-portifolio5 {
-    background-image: url(portfolio5.jpg);
-    width: 54px;
-    height: 54px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.imagem-portifolio6 {
-    background-image: url(portfolio6.jpg);
-    width: 54px;
-    height: 54px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
 }
 
 /*--------------------------------footer----------------------------------*/
