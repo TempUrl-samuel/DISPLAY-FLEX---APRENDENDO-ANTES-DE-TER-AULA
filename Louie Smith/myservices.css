@@ -115,7 +115,7 @@ header ul>li>a {
 .Poifulio {
     display: flex;
     flex-direction: row;
-    width: 1200px;
+    width: 100%;
     flex-wrap: wrap;
     padding-left: 400px;
     justify-content: space-evenly;
@@ -135,10 +135,14 @@ header ul>li>a {
     color: #999999;
 }
 
-.imagem-portifolio1 {
-    background-image: url(portfolio1.png);
+.imagem-icone{
     width: 54px;
-    height: 54px;
+    height: 53.6px;
+}
+
+.imagem-portifolio1 {
+    width: 347px;
+    height: 288px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -146,18 +150,16 @@ header ul>li>a {
 
 
 .imagem-portifolio2 {
-    background-image: url(portfolio2.jpg);
-    width: 54px;
-    height: 54px;
+    width: 347px;
+    height: 288px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .imagem-portifolio3 {
-    background-image: url(portfolio3.jpg);
-    width: 54px;
-    height: 54px;
+    width: 347px;
+    height: 288px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -165,9 +167,8 @@ header ul>li>a {
 }
 
 .imagem-portifolio4 {
-    background-image: url(portfolio4.jpg);
-    width: 54px;
-    height: 54px;
+    width: 347px;
+    height: 288px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -175,18 +176,16 @@ header ul>li>a {
 }
 
 .imagem-portifolio5 {
-    background-image: url(portfolio5.jpg);
-    width: 54px;
-    height: 54px;
+    width: 347px;
+    height: 288px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .imagem-portifolio6 {
-    background-image: url(portfolio6.jpg);
-    width: 54px;
-    height: 54px;
+    width: 347px;
+    height: 288px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
