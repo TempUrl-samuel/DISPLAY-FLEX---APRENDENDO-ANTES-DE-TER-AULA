@@ -136,6 +136,10 @@ header ul>li>a {
 }
 
 .imagem-icone{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 54px;
     height: 53.6px;
 }

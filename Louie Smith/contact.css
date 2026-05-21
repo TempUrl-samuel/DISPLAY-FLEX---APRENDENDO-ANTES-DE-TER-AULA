@@ -114,27 +114,150 @@ header ul>li>a {
     margin-left: 400px;
 }
 
-.localizacao{
-    padding: 24px;
+#titulo-contato {
+    margin-left: 450px;
 }
 
-.localizacao>ul>li{
+.localizacao {
+    background-color: #F8F9FA;
+    width: 253px;
+    height: 145px;
+}
+
+.localizacao>ul>li {
     list-style: none;
     font-family: "Montserrat";
     color: #999999;
     background-color: #F8F9FA;
 }
 
-.numero-telefone{
+.numero-telefone {
     background-color: #F8F9FA;
+    width: 253px;
+    height: 145px;
+}
+
+.numero-telefone>h1 {
+    font-family: "Montserrat";
+    color: #999999;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.numero-telefone span {
+    font-family: "Montserrat";
+    color: #0b0707;
+}
+
+.email-adress {
+    background-color: #F8F9FA;
+    width: 253px;
+    height: 145px;
+}
+
+.email-adress>h1 {
+    font-family: "Montserrat";
+    color: #999999;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.email-adress span {
+    font-family: "Montserrat";
+    color: #0b0707;
+}
+
+.site {
+    width: 253px;
+    height: 145px;
+    background-color: #F8F9FA;
+}
+
+.site>h1 {
+    font-family: "Montserrat";
+    color: #999999;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.site span {
+    font-family: "Montserrat";
+    color: #0b0707;
 }
 
 .Poifulio {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding-left: 400px;
+    margin-left: 300px;
     justify-content: space-evenly;
+}
+
+/*--------------------------------email-----------------------------------*/
+
+.confessionario {
+    display: flex;
+    margin-top: 3%;
+    order: 1;
+    margin: 3%;
+}
+
+.email-contact {
+    margin-left: 433px;
+    background-color: #9999991d;
+    width: 536px;
+    height: 560px;
+}
+
+#caixa-longa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 440px;
+    height: 52px;
+}
+
+#caixa-grande {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 440px;
+    height: 52px;
+}
+
+.send-message {
+    width: 213px;
+    height: 57px;
+    border-radius: 40%;
+    background-color: #CCB78F;
+
+    border: solid 1px #CCB78F;
+
+}
+
+.send-message>a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: "Montserrat";
+}
+
+.send-message:hover {
+    background-color: #FFFFFF;
+    border: solid 1px #CCB78F;
+
+}
+
+.localization {
+    order: 2;
+    background-image: url(nao-disponivel.png);
+    width: 536px;
+    height: 560px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    margin-left: 2%;
+    background-color: #0b0707;
 }
 
 /*--------------------------------footer----------------------------------*/
