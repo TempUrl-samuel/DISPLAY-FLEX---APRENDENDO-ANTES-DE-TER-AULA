@@ -117,15 +117,15 @@ header ul>li>a {
 .Poifulio {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     padding-left: 400px;
     justify-content: space-evenly;
+    order: 1;
 }
 
 .imagem-portifolio1 {
     background-image: url(image_1.jpg);
-    width: 457.28px;
-    height: 250px;
+    width: 365px;
+    height: 300px;
     margin-top: 2%;
     background-size: cover;
     background-position: center;
@@ -134,8 +134,8 @@ header ul>li>a {
 
 .imagem-portifolio2 {
     background-image: url(image_2.jpg);
-    width: 457.28px;
-    height: 250px;
+    width: 365px;
+    height: 300px;
     margin-top: 2%;
     background-size: cover;
     background-position: center;
@@ -144,8 +144,8 @@ header ul>li>a {
 
 .imagem-portifolio3 {
     background-image: url(image_3.jpg);
-    width: 457.28px;
-    height: 250px;
+    width: 365px;
+    height: 300px;
     margin-top: 2%;
     background-size: cover;
     background-position: center;
@@ -155,8 +155,8 @@ header ul>li>a {
 
 .imagem-portifolio4 {
     background-image: url(image_4.jpg);
-    width: 457.28px;
-    height: 250px;
+    width: 365px;
+    height: 300px;
     margin-top: 2%;
     background-size: cover;
     background-position: center;
@@ -165,8 +165,8 @@ header ul>li>a {
 
 .imagem-portifolio5 {
     background-image: url(image_5.jpg);
-    width: 457.28px;
-    height: 250px;
+    width: 365px;
+    height: 300px;
     margin-top: 2%;
     background-size: cover;
     background-position: center;
@@ -175,8 +175,8 @@ header ul>li>a {
 
 .imagem-portifolio6 {
     background-image: url(image_6.jpg);
-    width: 457.28px;
-    height: 250px;
+    width: 365px;
+    height: 300px;
     margin-top: 2%;
     background-size: cover;
     background-position: center;
@@ -185,8 +185,8 @@ header ul>li>a {
 
 .imagem-portifolio7 {
     background-image: url(image_7.jpg);
-    width: 457.28px;
-    height: 250px;
+    width: 365px;
+    height: 300px;
     margin-top: 2%;
     background-size: cover;
     background-position: center;
@@ -195,14 +195,44 @@ header ul>li>a {
 
 .imagem-portifolio8 {
     background-image: url(image_8.jpg);
-    width: 457.28px;
-    height: 250px;
+    width: 365px;
+    height: 300px;
     margin-top: 2%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
+.texto-ao-lado {
+    margin-left: 400px;
+    display: flex;
+    flex-direction: column;
+    order: 2;
+}
+
+.titulo-acompanhado {
+    font-size: 18px;
+    font-family: "Poppins";
+}
+
+.titulo-acompanhado>a {
+    text-decoration: none;
+    color: black;
+}
+
+.december2014 {
+    font-family: "Montserrat";
+    font-size: 14px;
+}
+
+.december2014 h2 {
+    color: #BFBFBF;
+}
+
+.december201>a {
+    color: black;
+    text-decoration: none;
+}
 
 /*--------------------------------footer----------------------------------*/
 footer {
