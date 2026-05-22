@@ -92,6 +92,7 @@ header ul>li>a {
     height: 213px;
     margin-left: 400px;
     padding-top: 3%;
+    margin-bottom: 5%;
 }
 
 .header-meiado>h2 {
@@ -116,7 +117,7 @@ header ul>li>a {
 
 .corpo-do-site{
     display: flex;
-    margin-left: 10%;
+    justify-content: space-evenly;
 }
 
 .Poifulio {
@@ -252,6 +253,7 @@ header ul>li>a {
 .coisas-inuteis{
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     order: 3;
 }
 
@@ -260,7 +262,117 @@ header ul>li>a {
     height: 52px;
 }
 
+#texto{
+    width: 300px;
+    height: 336px;
+}
 
+#texto li{
+    list-style: none;
+    font-family: "Montserrat";
+    font-size: 15px;
+}
+
+#texto hr{
+    width: 300px;
+}
+
+#popular>ul>li{
+    display: flex;
+    flex-direction: row;
+}
+
+.iamgem-pequenininha1{
+    background-image: url(image_1.jpg);
+    width: 80px;
+    height: 80px;
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.iamgem-pequenininha2{
+    background-image: url(image_2.jpg);
+    width: 80px;
+    height: 80px;
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.iamgem-pequenininha3{
+    background-image: url(image_3.jpg);
+    width: 80px;
+    height: 80px;
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.botoes-tag{
+    width: 300px;
+    
+}
+
+.botoes-tag>button{
+    font-family: "Montserrat";
+    border:3px thick #99999910;
+} 
+
+.botoes-tag a{
+    text-decoration: none;
+    color: #0b0707;
+}
+
+.itaimagem{
+    background-image: url(bg_1.jpg);
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 312px;
+  
+    padding: 10%;
+}
+
+
+#new-adress h1{
+    font-family: "Poppins";
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+#new-adress h2{
+    font-family: "Montserrat";
+    font-size: 15px;
+    color: #FFFFFFB3;
+}
+
+.itaimagem input{
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    padding: 6px 12px;
+    width: 289px;
+    height: 52px;
+}
+
+.itaimagem button>a{
+    text-decoration: none;
+    font-family: "Montserrat";
+    font-weight: 100;
+}
+
+.itaimagem button{
+    margin-top: 2%;
+    width: 289px;
+    height: 52px;
+}
 
 /*--------------------------------footer----------------------------------*/
 footer {
