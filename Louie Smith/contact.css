@@ -228,9 +228,8 @@ header ul>li>a {
 .send-message {
     width: 213px;
     height: 57px;
-    border-radius: 40%;
+    border-radius: 40px;
     background-color: #CCB78F;
-
     border: solid 1px #CCB78F;
 
 }
