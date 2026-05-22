@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding-top: 2%;
+    display: flex;
+    position: fixed;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    text-align: center;
+    height: 100%;
+    z-index: 10;
+    background-color: #FFFFFF;
+}
+
+.Bola-do-Luis {
+    background-image: url(LuisSmiti.png);
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+    background-color: #0b0707;
+}
+
+
+#header-title>a {
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+    margin-left: 4.55%;
+    font-family: "Poppins";
+}
+
+header ul>li {
+    list-style: none;
+    text-align: center;
+    padding-right: 5vh;
+}
+
+header ul>li>a {
+    text-decoration: none;
+    color: black;
+}
+
+.newsletter>h2 {
+    font-family: "poppins";
+}
+
+.newsletter>form {
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+    border: bold rgba(201, 201, 201, 0.058);
+    width: 187px;
+    height: 50px;
+    padding-bottom: 5%;
+}
+
+.header-esquerda {
+    display: flex;
+}
+
+.parte-cima {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Poppins";
+    font-weight: bold;
+}
+
+/*==============================body======================================*/
+
+.header-meiado {
+    background-color: #CCB78F;
+    width: 100%;
+    height: 213px;
+    margin-left: 400px;
+    padding-top: 3%;
+}
+
+.header-meiado>h2 {
+    text-decoration: underline;
+    font-family: "Montserrat";
+    font-size: 13px;
+    margin-left: 400px;
+}
+
+.header-meiado>span {
+    color: #00000080;
+    text-decoration: underline;
+    font-family: "Montserrat";
+    font-size: 13px;
+}
+
+.header-meiado>h1 {
+    font-family: "Poppins";
+    font-size: 40px;
+    margin-left: 400px;
+}
+
+.Poifulio {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    flex-wrap: wrap;
+    padding-left: 400px;
+    justify-content: space-evenly;
+    height: 100vh;
+    z-index: 99;
+    padding-top: 10%;
+}
+
+.titulinho {
+    font-family: "Poppins";
+    color: #000000CC;
+    width: 350px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.subtextinho {
+    font-family: "Montserrat";
+    color: #999999;
+    font-size: 15px;
+}
+
+.imagem-icone {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 59px;
+    height: 59px;
+    background-color: #99999927;
+    border-radius: 100%;
+}
+
+.imagem-portifolio1 {
+    border-radius: 100%;
+    width: 347px;
+    height: 288px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.imagem-portifolio2 {
+    width: 347px;
+    height: 288px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imagem-portifolio3 {
+    width: 347px;
+    height: 288px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.imagem-portifolio4 {
+    width: 347px;
+    height: 288px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.imagem-portifolio5 {
+    width: 347px;
+    height: 288px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imagem-portifolio6 {
+    width: 347px;
+    height: 288px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.imagem-icone
+
+/*--------------------------------footer----------------------------------*/
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #242423;
+    padding-left: 22%;
+    height: 75vh;
+    justify-content: center;
+    padding-bottom: 8%;
+}
+
+.footer-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.foot-titulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: "Poppins";
+    font-size: 10px;
+    padding-bottom: 5%;
+    color: #FFFFFF;
+    font-weight: lighter;
+}
+
+.footer-resto {
+    display: flex;
+    flex-direction: row;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 300px;
+    flex-wrap: wrap;
+}
+
+.imginha-1 {
+    background-image: url(image_1.jpg);
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imginha-2 {
+    background-image: url(image_2.jpg);
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imginha-3 {
+    background-image: url(image_3.jpg);
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.imginha-4 {
+    background-image: url(image_4.jpg);
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.imginha-5 {
+    background-image: url(image_5.jpg);
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imginha-6 {
+    background-image: url(image_6.jpg);
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+.location {
+    width: 30vh;
+    text-decoration: none;
+}
+
+.location>h2 {
+    font-family: "Montserrat";
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: light;
+}
+
+.location-te4to>h2 {
+    text-decoration: none;
+    font-family: "Montserrat";
+    font-size: 16px;
+    color: #FFFFFF80;
+    font-weight: 300;
+}
+
+.telefone>h2 {
+    color: #FFFFFF80;
+    font-size: 15px;
+}
+
+
+#made>h4 {
+    color: #FFFFFF80;
+    margin-left: 10%;
+    padding-top: 5%;
+}
+
+.imagens-footer {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: 10%;
+    transform: scale(0.05);
+
+}
+
+.datas span {
+    display: inline-block;
+    color: #FFFFFF;
+    padding-left: 20vh;
+}
+
+.datas {
+    display: flex;
+    flex-direction: column;
+}
+
+.datas>h3>a {
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF80;
+    text-decoration: none;
+    font-style: "Montserrat";
+    font-weight: 100;
+}
+
+.datas>hr {
+    opacity: 33%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
